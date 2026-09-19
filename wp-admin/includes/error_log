@@ -1,0 +1,36 @@
+[06-Jul-2024 21:26:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/file.php on line 16
+[09-Jul-2024 18:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16
+[10-Aug-2024 06:00:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/file.php on line 16
+[09-Apr-2025 00:26:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16
+[13-Oct-2025 14:44:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16
+[16-Oct-2025 10:26:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16
+[20-Mar-2026 03:28:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16
+[03-May-2026 14:57:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16
+[01-Jun-2026 00:54:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-admin/includes/admin.php on line 16

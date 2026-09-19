@@ -1,0 +1,74 @@
+2026-09-18T17:45:59+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/script-loader.php on line 1101
+
+2026-09-18T17:50:04+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/functions.php on line 4444
+
+2026-09-18T17:51:53+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/script-loader.php on line 1101
+
+2026-09-18T17:51:56+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/script-loader.php on line 1101
+
+2026-09-18T17:52:00+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/script-loader.php on line 1101
+
+2026-09-18T17:52:12+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/script-loader.php on line 1101
+
+2026-09-18T17:52:31+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/script-loader.php on line 1101
+
+2026-09-18T17:55:28+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/functions.php on line 4444
+
+2026-09-18T17:55:34+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/functions.php on line 4444
+
+2026-09-18T17:59:17+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/pluggable.php on line 1048
+
+2026-09-18T17:59:25+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T17:59:28+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:05:16+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 16384 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-scripts.php on line 665
+
+2026-09-18T18:05:29+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:07:11+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:08:02+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:08:11+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:08:20+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:09:14+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:09:26+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:10:18+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:11:21+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:15:25+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:15:57+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:16:00+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:16:28+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:17:06+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:17:31+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:18:35+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:19:38+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:20:09+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:20:41+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:21:03+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:21:31+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:21:44+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+
+2026-09-18T18:22:50+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/functions.php on line 4444
+
+2026-09-18T18:23:05+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-dependencies.php on line 285
+

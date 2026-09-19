@@ -1,0 +1,4 @@
+[18-Jan-2026 09:43:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/seaquest3687/public_html/sleepplususa.net/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
