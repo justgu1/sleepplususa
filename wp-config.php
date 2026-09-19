@@ -26,6 +26,10 @@ define('WP_HOME', getenv('WORDPRESS_HOME'));
 define('WP_SITEURL', getenv('WORDPRESS_SITEURL'));
 define('FORCE_SSL_ADMIN', true);
 
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+	$_SERVER['HTTPS'] = 'on';
+}
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 

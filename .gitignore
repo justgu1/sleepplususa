@@ -1,0 +1,7 @@
+*.sql
+*.sql.gz
+*.dump
+*.tar.gz
+*.zip
+backup/
+backups/

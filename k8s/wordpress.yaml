@@ -87,13 +87,11 @@ spec:
             - name: wordpress-data
               mountPath: /var/www/html/wp-content
           readinessProbe:
-            httpGet:
-              path: /wp-login.php
+            tcpSocket:
               port: http
             initialDelaySeconds: 15
           livenessProbe:
-            httpGet:
-              path: /wp-login.php
+            tcpSocket:
               port: http
             initialDelaySeconds: 30
       volumes:
