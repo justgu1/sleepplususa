@@ -84,6 +84,9 @@ spec:
                   name: wordpress-secrets
                   key: NONCE_SALT
           volumeMounts:
+            - name: php-config
+              mountPath: /usr/local/etc/php/conf.d/zz-sleepplususa.ini
+              subPath: zz-sleepplususa.ini
             - name: wordpress-data
               mountPath: /var/www/html/wp-content
           readinessProbe:
@@ -95,6 +98,9 @@ spec:
               port: http
             initialDelaySeconds: 30
       volumes:
+        - name: php-config
+          configMap:
+            name: sleepplususa-php-config
         - name: wordpress-data
           persistentVolumeClaim:
             claimName: sleepplususa-wordpress
