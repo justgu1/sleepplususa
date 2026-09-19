@@ -132,12 +132,18 @@ class Cornerstone {
 	public function init() {
 
 		$is_editing_request = isset( $_GET['cornerstone'] ) || isset( $_GET['cornerstone_preview'] );
-		if ( !$is_editing_request ) {
-			return;
-		}
 
 		// Localize
 		load_plugin_textdomain( csl18n() , false, $this->path() . '/' . self::$domain_path . '/' );
+
+		// Shortcodes are required on normal front-end requests. Keep
+		// the builder-only customizer and element stack editor-only.
+		if ( !$is_editing_request ) {
+			$shortcodes = ( new ReflectionClass( 'Cornerstone_Shortcode_Manager' ) )->newInstanceWithoutConstructor();
+			$shortcodes->load();
+			do_action( 'cornerstone_shortcodes_loaded' );
+			return;
+		}
 
 
 		// Nothing else to do if the editor request is not authenticated.
@@ -146,8 +152,8 @@ class Cornerstone {
 			return;
 		}
 
-		// Load Core Components only for the editor.
-		$this->shortcodes = new Cornerstone_Shortcode_Manager;
+				// Load the customizer and builder components only for the editor.
+				$this->shortcodes = new Cornerstone_Shortcode_Manager;
 		$this->customizer = new Cornerstone_Customizer_Manager;
 
 		// Load the rest of Cornerstone
