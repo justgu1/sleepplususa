@@ -1,0 +1,16 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: sleepplususa-tls
+  namespace: apps
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`sleepplususa.net`)
+      kind: Rule
+      services:
+        - name: sleepplususa
+          port: 80
+  tls:
+    certResolver: letsencrypt

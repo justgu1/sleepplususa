@@ -1,0 +1,22 @@
+2026-09-02T04:00:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-scripts.php on line 665
+
+2026-09-02T04:01:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:02:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:08:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:08:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:09:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:10:35+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:12:46+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:14:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:16:08+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+
+2026-09-02T04:19:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/seaquest3687/public_html/sleepplususa.net/wp-includes/class-wp-hook.php on line 358
+

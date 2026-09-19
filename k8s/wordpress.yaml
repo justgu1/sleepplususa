@@ -1,0 +1,126 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sleepplususa
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sleepplususa
+  template:
+    metadata:
+      labels:
+        app: sleepplususa
+    spec:
+      containers:
+        - name: wordpress
+          image: ghcr.io/justgu1/sleepplususa:latest
+          ports:
+            - name: http
+              containerPort: 80
+          env:
+            - name: WORDPRESS_DB_HOST
+              value: sleepplususa-mysql:3306
+            - name: WORDPRESS_HOME
+              value: https://sleepplususa.net
+            - name: WORDPRESS_SITEURL
+              value: https://sleepplususa.net
+            - name: WORDPRESS_DEBUG
+              value: "false"
+            - name: WORDPRESS_DB_NAME
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: DB_NAME
+            - name: WORDPRESS_DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: DB_USER
+            - name: WORDPRESS_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: DB_PASSWORD
+            - name: WORDPRESS_AUTH_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: AUTH_KEY
+            - name: WORDPRESS_SECURE_AUTH_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: SECURE_AUTH_KEY
+            - name: WORDPRESS_LOGGED_IN_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: LOGGED_IN_KEY
+            - name: WORDPRESS_NONCE_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: NONCE_KEY
+            - name: WORDPRESS_AUTH_SALT
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: AUTH_SALT
+            - name: WORDPRESS_SECURE_AUTH_SALT
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: SECURE_AUTH_SALT
+            - name: WORDPRESS_LOGGED_IN_SALT
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: LOGGED_IN_SALT
+            - name: WORDPRESS_NONCE_SALT
+              valueFrom:
+                secretKeyRef:
+                  name: wordpress-secrets
+                  key: NONCE_SALT
+          volumeMounts:
+            - name: wordpress-data
+              mountPath: /var/www/html/wp-content
+          readinessProbe:
+            httpGet:
+              path: /wp-login.php
+              port: http
+            initialDelaySeconds: 15
+          livenessProbe:
+            httpGet:
+              path: /wp-login.php
+              port: http
+            initialDelaySeconds: 30
+      volumes:
+        - name: wordpress-data
+          persistentVolumeClaim:
+            claimName: sleepplususa-wordpress
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sleepplususa
+  namespace: apps
+spec:
+  selector:
+    app: sleepplususa
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: sleepplususa-wordpress
+  namespace: apps
+spec:
+  accessModes: [ReadWriteOnce]
+  resources:
+    requests:
+      storage: 10Gi

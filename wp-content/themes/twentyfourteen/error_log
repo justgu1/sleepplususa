@@ -1,0 +1,4 @@
+[23-Jun-2024 15:29:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/seaquest3687/public_html/sleepplususa.net/wp-content/themes/twentyfourteen/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/seaquest3687/public_html/sleepplususa.net/wp-content/themes/twentyfourteen/index.php on line 17
