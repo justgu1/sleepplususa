@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sleepplususa-php-config
+  namespace: apps
+data:
+  zz-sleepplususa.ini: |
+    memory_limit = 512M
+    max_execution_time = 300
