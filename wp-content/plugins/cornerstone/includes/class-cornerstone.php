@@ -131,30 +131,24 @@ class Cornerstone {
 	 */
 	public function init() {
 
+		$is_editing_request = isset( $_GET['cornerstone'] ) || isset( $_GET['cornerstone_preview'] );
+		if ( !$is_editing_request ) {
+			return;
+		}
+
 		// Localize
 		load_plugin_textdomain( csl18n() , false, $this->path() . '/' . self::$domain_path . '/' );
 
 
-		// Load Core Components
-		$this->shortcodes = new Cornerstone_Shortcode_Manager;
-		$this->customizer = new Cornerstone_Customizer_Manager;
-
-		// Nothing left to do if we don't have a user
+		// Nothing else to do if the editor request is not authenticated.
 		if ( !is_user_logged_in() ) {
 			add_action( 'template_redirect', array( $this->common, 'loginRedirect' ) );
 			return;
 		}
 
-		// The full builder stack (element manager alone instantiates ~90 classes)
-		// used to load on every front end pageview for any logged in user, not
-		// just while actually building. On memory constrained hosts (fixed
-		// memory_limit, no user.ini override) that was blowing the limit and
-		// producing fatal errors. Only load it in wp-admin (covers admin-ajax.php
-		// too) or on an actual builder request.
-		$is_editing_request = isset( $_GET['cornerstone'] ) || isset( $_GET['cornerstone_preview'] );
-		if ( !is_admin() && !$is_editing_request ) {
-			return;
-		}
+		// Load Core Components only for the editor.
+		$this->shortcodes = new Cornerstone_Shortcode_Manager;
+		$this->customizer = new Cornerstone_Customizer_Manager;
 
 		// Load the rest of Cornerstone
 		$this->includes( $this->registry['builder'] );
