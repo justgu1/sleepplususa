@@ -7,7 +7,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`sleepplususa.net`)
+    - match: Host(`sleepplususa.net`) || Host(`www.sleepplususa.net`)
       kind: Rule
       services:
         - name: sleepplususa
