@@ -7,3 +7,4 @@ resources:
   - mysql.yaml
   - wordpress.yaml
   - ingressroute.yaml
+  - wp-cron.yaml
